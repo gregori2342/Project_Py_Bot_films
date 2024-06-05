@@ -6,7 +6,7 @@ from telebot import types
 import re
 
 # Настройка Telegram-бота
-bot = telebot.TeleBot("6561249829:AAHCEZs6RDtaN7tHMy3oHORYvtb0bdb9nDg")
+bot = telebot.TeleBot("?")
 
 # Создание или подключение к базе данных
 conn = sqlite3.connect('movies32.db', check_same_thread=False)
